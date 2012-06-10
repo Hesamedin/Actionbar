@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>	
+	<style name="simpletopic">
+	    <item name="android:typeface">normal</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">16sp</item>
+	</style>
+	
+	<style name="simpletopic.bold">
+	    <item name="android:textStyle">bold</item>
+	</style>
+    
+</resources>

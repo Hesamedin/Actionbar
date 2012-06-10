@@ -1,0 +1,16 @@
+<resources>
+    <color name="septator_silver">#C0C0C0</color>
+    <color name="septator_silver_dark">#FFC0C0C0</color>
+    <color name="septator_gray_trans">#BB424242</color>
+    <color name="septator_grey">#808080</color>
+    <color name="septator_grey_lighter">#DD808080</color>
+    <color name="septator_grey_dark">#FF808080</color>
+    <color name="septator_grey_light">#E5E5E5</color>
+    <color name="blackWall">#DDDDDD</color>
+    <color name="transparent">#00000000</color>
+    <color name="Black">#000000</color>
+    <color name="Black_light">#333333</color>
+    <color name="Purple_light">#580058</color>
+    <color name="Purple_dark">#3E0030</color>
+    <color name="Purple_bright">#C73389</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android			= "http://schemas.android.com/apk/res/android"
+    android:layout_width	= "fill_parent" 
+    android:layout_height	= "wrap_content" >
+    
+    <ImageView 
+        android:id						= "@+id/actionbar_menu"
+        android:layout_width			= "wrap_content"
+        android:layout_height			= "wrap_content" 
+        android:src						= "@drawable/ic_menu_header"
+        android:contentDescription		= "@string/img_contentDescription"
+        android:layout_marginLeft		= "10dip"
+        android:layout_alignParentLeft	= "true"
+        android:layout_centerVertical	= "true" />
+    
+    <TextView 
+	    android:id						= "@+id/actionbar_title"
+	    android:layout_width			= "wrap_content" 
+	    android:layout_height			= "wrap_content"
+	    android:layout_centerInParent	= "true" 
+	    android:gravity					= "center_vertical"
+	    android:text					= "@string/title"
+	    android:singleLine				= "true"
+	    style							= "@style/simpletopic.bold" />
+    
+    <RelativeLayout 
+        android:id						= "@+id/actionbar_actionIcons"
+        android:layout_width			= "wrap_content" 
+        android:layout_height			= "wrap_content"
+        android:layout_alignParentRight	= "true"
+        android:layout_centerVertical	= "true" > 
+        
+        <ImageButton
+            android:id						= "@+id/actionbar_stage"
+	        android:layout_width			= "wrap_content"
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignParentRight	= "true"
+	        android:layout_centerVertical	= "true"
+	        android:contentDescription		= "@string/img_contentDescription"
+	        android:src						= "@drawable/ic_stage"
+	        android:background				= "@color/transparent"
+	        android:layout_marginRight		= "10dip" />
+    
+	    <ProgressBar 
+	        android:id						= "@+id/actionbar_progress"
+	        android:layout_width			= "wrap_content" 
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignParentRight	= "true"
+	        android:layout_centerVertical	= "true"
+	        android:indeterminateOnly		= "true" 
+	        android:layout_marginRight		= "40dip"
+	        android:visibility				= "invisible"
+	        style							= "@android:style/Widget.ProgressBar.Small" />
+	    
+	</RelativeLayout>
+
+</RelativeLayout>

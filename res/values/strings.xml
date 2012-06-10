@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- General Screens -->
+    <string name="app_name">Actionbar</string>
+    <string name="title">Title</string>
+    <string name="img_contentDescription">This is content description</string>
+    
+</resources>
