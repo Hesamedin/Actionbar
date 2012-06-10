@@ -1,8 +1,3 @@
-/************************************************************************************
- * This code is based on code published in below website. For more info please check
- * http://thiranjith.com/2011/07/15/actionbar-design-pattern-example-for-android/
- ************************************************************************************/
-
 package com.kamalan.widget;
 
 import android.content.Context;
